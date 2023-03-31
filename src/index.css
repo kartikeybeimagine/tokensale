@@ -1,0 +1,40 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 
+
+
+.gradienttext {
+  /* font-size: 72px; */
+  background: -webkit-linear-gradient(#7a1dd6, #4f2fff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+
+
+.inp {
+  border:none;
+  border-bottom: 1px solid #000000;
+  padding: 5px 10px;
+  outline: none;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.4s 0.4s ease; 
+  text-indent: -100%;
+  opacity: 1;
+}
