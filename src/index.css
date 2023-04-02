@@ -9,7 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} 
+html,body{
+  margin:0;
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -22,7 +25,14 @@ code {
   background: -webkit-linear-gradient(#7a1dd6, #4f2fff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-} 
+}  
+
+.alert{
+  position: fixed;
+  /* top: 50%; */
+left: 50%;
+transform: translate(-50%, -50%);
+}
 
 
 
